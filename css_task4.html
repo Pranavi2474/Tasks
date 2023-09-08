@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myside a
+        {
+            position: absolute;
+            left: -80px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+        #myside a:hover 
+        {
+            left: 0;
+        }
+        #home {
+            top: 120px;
+            background-color: #04AA6D;
+        }
+
+        #html {
+            top: 180px;
+            background-color: #2196F3;
+        }
+
+        #css {
+            top: 240px;
+            background-color: #f44336;
+        }
+
+        #java {
+            top: 300px;
+            background-color: #555
+        }
+    </style>
+</head>
+<body>
+        <h1>CSS TASK 4</h1>
+        <div id="myside" class="sidenav">
+            <a href="#" id="home">Home</a>
+            <a href="#" id="html">HTML</a>
+            <a href="#" id="css">CSS</a>
+            <a href="#" id="java">Java</a>
+        </div>
+        <div class="content" style="margin-left:150px;">
+            <h1>Hoverable Sidenav Buttons</h1>
+            <p>Hover over the buttons in the left side navigation to open them.</p>
+        </div>
+</body>
+</html>
